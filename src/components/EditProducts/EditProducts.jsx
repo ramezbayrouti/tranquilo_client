@@ -139,7 +139,6 @@ const EditProducts = () => {
             placeholder="Product Description"
             onChange={handleInputChange}
             className={styles.input}
-            required
           />
           <input
             type="number"
