@@ -33,6 +33,13 @@ const EditProducts = () => {
     }
   }, [selectedProduct, operation]);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   const fetchProducts = async () => {
     try {
       const response = await axios.post(`${backendUrl}/products/get`);
@@ -224,7 +231,10 @@ const EditProducts = () => {
             {products.map((product) => (
               <li
                 key={product._id}
-                onClick={() => setSelectedProduct(product)}
+                onClick={() => {
+                  setSelectedProduct(product);
+                  scrollToTop();
+                }}
                 className={styles.productItem}
               >
                 {product.name}
