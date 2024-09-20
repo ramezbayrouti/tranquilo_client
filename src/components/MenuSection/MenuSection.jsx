@@ -31,7 +31,7 @@ const MenuSection = ({ category, backendUrl }) => {
     <section
       id={category.name}
       className={styles.menuSection}
-      style={{ backgroundImage: `url(${backendUrl}/${category.image})` }}
+      style={{ backgroundImage: `url(${category.image})` }}
     >
       <div className={styles.overlay}></div>
       <div className={styles.contentContainer}>

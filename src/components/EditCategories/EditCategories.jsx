@@ -255,7 +255,7 @@ const EditCategories = () => {
                 <div
                   className={styles.categoryCard}
                   style={{
-                    backgroundImage: `url(${backendUrl}/${category.image})`,
+                    backgroundImage: `url(${category.image})`,
                   }}
                 >
                   <span className={styles.categoryTitle}>{category.name}</span>
@@ -277,7 +277,7 @@ const EditCategories = () => {
                 <div
                   className={styles.categoryCard}
                   style={{
-                    backgroundImage: `url(${backendUrl}/${category.image})`,
+                    backgroundImage: `url(${category.image})`,
                   }}
                 >
                   <span className={styles.categoryTitle}>{category.name}</span>
@@ -307,7 +307,7 @@ const EditCategories = () => {
                 <div
                   className={styles.categoryCard}
                   style={{
-                    backgroundImage: `url(${backendUrl}/${category.image})`,
+                    backgroundImage: `url(${category.image})`,
                   }}
                 >
                   <span className={styles.categoryTitle}>{category.name}</span>
@@ -328,7 +328,7 @@ const EditCategories = () => {
                 <div
                   className={styles.categoryCard}
                   style={{
-                    backgroundImage: `url(${backendUrl}/${category.image})`,
+                    backgroundImage: `url(${category.image})`,
                   }}
                 >
                   <span className={styles.categoryTitle}>{category.name}</span>
