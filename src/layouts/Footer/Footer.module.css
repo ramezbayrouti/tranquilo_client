@@ -7,6 +7,10 @@
   align-items: center;
   flex-wrap: wrap;
   font-family: "Roboto", sans-serif; /* Nice modern font */
+  background-image: url('../../assets/Footer.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
 }
 
 .logo {

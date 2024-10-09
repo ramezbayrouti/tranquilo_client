@@ -9,7 +9,6 @@ const Header = () => {
   const { user } = useContext(UserContext);
   return (
     <header className={styles.wrapper}>
-      <img src={logo} alt="logo" className={styles.logo} />
       {user && (
         <Link to="/dashboard/manage" className={styles.dashboard}>
           Dashboard

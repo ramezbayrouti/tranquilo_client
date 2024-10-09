@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className={styles.wrapper}>
-      <div className={styles.logoContainer}>
+      {/* <div className={styles.logoContainer}>
         <img src={logo} alt="logo" className={styles.logo} />
       </div>
 
@@ -26,7 +26,7 @@ const Footer = () => {
         <p className={styles.subheader}>
           Mina Road, Messayke Building Near Bank Audi
         </p>
-      </div>
+      </div> */}
     </footer>
   );
 };
